@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Freeman&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+
+        <p class="heading">Password Generator</p>
+
+        <hr>
+
+        <input class="pass_input"value="alskjfla;kjf^%$#^" disabled>
+
+        
+
+        <div>
+            <ul class="options">
+                <li class="option">
+                    <input type="checkbox" id="lowercase">
+                    <label for="lowercase">Alphabets (a-z)</label>
+                </li>
+                <li class="option">
+                    <input type="checkbox" id="alphanum">
+                    <label for="numbers">Alphanum (a-z and 0-9)</label>
+                </li>
+                <li class="option">
+                    <input type="checkbox" id="all">
+                    <label for="all">All</label>
+                </li>
+                
+            </ul>
+        </div>
+        
+        <button class="generate_btn">Generate</button>
+
+    </div>
+
+    <script src="src/main.js"></script>
+</body>
+</html>
